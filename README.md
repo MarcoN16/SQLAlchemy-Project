@@ -16,6 +16,7 @@ In the first part of the project, I used the following steps:
 ###  Precipitation Analysis 
 
 For precipitation analysis, I found the most recent date in the dataset and I used this date to get the previous 12 months of precipitation data by querying the previous 12 months from the dataset. After selecting the date and precipitation data I load the query into a Pandas DataFrame and plot the results by using the DataFrame plot method, as the following image shows:
+
 ![Precipitation_analysis](https://github.com/MarcoN16/sqlalchemy-challenge/assets/150491559/968e485f-e4ca-4762-ab4a-b34476317921)
 
 I used Pandas to calculate the summary statistics for the precipitation data. 
@@ -23,6 +24,8 @@ I used Pandas to calculate the summary statistics for the precipitation data.
 ###  Station Analysis 
 
 For the station analysis, I designed a query to calculate the total number of stations in the dataset and identified the most active stations, listing them in descending order. Using the ID of the most active station, I then designed a query to calculate the lowest, highest, and average temperatures recorded. Finally, I formulated a query to retrieve the previous 12 months of temperature observation data for the most active station and plotted the results as a histogram, as depicted in the following image:
+
+![Temperature_analysis](https://github.com/MarcoN16/sqlalchemy-challenge/assets/150491559/044a55e1-c2b6-4329-9207-e11191397edc)
 
 
 ## Part 2: Design the Climate App
@@ -38,4 +41,4 @@ For the second part of the project, I designed a Flask API based on the queries 
 
 
 ### References
-Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897-910. [Link](https://journals.ametsoc.org/view/journals/atot/29/7/jtech-d-11-00103_1.xml)https://journals.ametsoc.org/view/journals/atot/29/7/jtech-d-11-00103_1.xml
+Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overview of the Global Historical Climatology Network-Daily Database. Journal of Atmospheric and Oceanic Technology, 29, 897-910. [Link](https://journals.ametsoc.org/view/journals/atot/29/7/jtech-d-11-00103_1.xml) https://journals.ametsoc.org/view/journals/atot/29/7/jtech-d-11-00103_1.xml
