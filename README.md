@@ -8,7 +8,7 @@ In this project, I used Python and SQLAlchemy to perform climate analysis and da
 
 In the first part of the project, I used the following steps:
 
-1.	Utilized the SQLAlchemy create_engine() function to connect to the SQLite database.
+1.	Employed the SQLAlchemy create_engine() function to connect to the SQLite database.
 2.	Employed the SQLAlchemy automap_base() function to reflect tables into classes and then saved references to the classes named Station and Measurement.
 3.	Linked Python to the database by creating a SQLAlchemy session.
 
