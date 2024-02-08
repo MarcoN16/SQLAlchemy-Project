@@ -38,6 +38,7 @@ For the second part of the project, I designed a Flask API based on the queries 
 4. /api/v1.0/tobs: Queries the dates and temperature observations of the most active station for the previous year of data. Returns a JSON list of temperature observations     for the previous year.
 5. /api/v1.0/yyyy-mm-dd: For a specified start date, calculates TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date to the most recent date.         Returns a JSON list.
 6. /api/v1.0/yyyy-mm-dd/yyyy-mm-dd: Returns a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start-end range.
+7. /api/v1.0/station_ID/yyyy-mm-dd/yyyy-mm-dd: Returns a JSON list of the min, max, average of Temperature and Precipitation from a specific period and for a specific station
 
 
 ### References
