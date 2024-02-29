@@ -1,5 +1,3 @@
-# sqlalchemy-challenge
-
 #  Climate Analysis and Data Exploration of Hawaii 
 
 In this project, I used Python and SQLAlchemy to perform climate analysis and data exploration of the Hawaii climate database. Specifically, SQLAlchemy ORM queries, Pandas, and Matplotlib are employed.
